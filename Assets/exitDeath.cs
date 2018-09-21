@@ -14,7 +14,7 @@ public class exitDeath : MonoBehaviour {
   {
     if(col.tag == "Player")
     {
-      Destroy(col.gameObject);
+      col.gameObject.GetComponent<Player>().dead = true;
     }
   }
 }

@@ -30,8 +30,7 @@ public class SightListener : MonoBehaviour {
 
 
   public void myListener_onEnter(GameObject go){
-		//Filter by Hash
-		if (gameObject.GetHashCode () == go.GetHashCode ()) {
+		if (go.name == gameObject.name) {
 			print (go.name + " --> OnEnter() event");
 			go.GetComponent<SpriteRenderer>().color = Color.green;
 		}
@@ -45,7 +44,7 @@ public class SightListener : MonoBehaviour {
 	}
 
 	public void myListener_onInside(GameObject go){
-		if(gameObject.GetHashCode() == go.GetHashCode())
+    if (gameObject.transform == go.transform)
       go.GetComponent<SpriteRenderer>().color = Color.white;
   }
 

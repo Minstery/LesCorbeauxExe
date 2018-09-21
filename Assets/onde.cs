@@ -8,15 +8,16 @@ public class onde : MonoBehaviour {
   // Use this for initialization
   void Start () {
     light2d_instance = GetComponent<DynamicLight2D.DynamicLight>();
-
   }
 	
 	// Update is called once per frame
 	void Update () {
     light2d_instance.LightRadius += 0.3f; 
-    if(light2d_instance.LightRadius > 11)
+    if(light2d_instance.LightRadius > 10)
     {
-      Destroy(gameObject);
+      gameObject.SetActive(false);
+      light2d_instance.LightRadius = 1;
+//      Destroy(gameObject);
     }
   }
 }

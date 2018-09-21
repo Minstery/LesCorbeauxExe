@@ -12,7 +12,7 @@ public class AversB : MonoBehaviour
 
   private void Start()
   {
-    startPos = transform.position;
+    startPos = transform.localPosition;
   }
 
   // Update is called once per frame
@@ -20,15 +20,15 @@ public class AversB : MonoBehaviour
   {
     if (!towardStartPos)
     {
-      transform.position += new Vector3(Offset.x / slowness, Offset.y / slowness, 0);
-      if(Vector3.Distance(transform.position, new Vector3(startPos.x + Offset.x, startPos.y + Offset.y, transform.position.z)) < 0.1f){
+      transform.localPosition += new Vector3(Offset.x / slowness, Offset.y / slowness, 0);
+      if(Vector3.Distance(transform.localPosition, new Vector3(startPos.x + Offset.x, startPos.y + Offset.y, transform.localPosition.z)) < 0.1f){
         towardStartPos = true;
       }
     }
     if (towardStartPos)
     {
-      transform.position += new Vector3(-Offset.x / slowness, -Offset.y / slowness, 0);
-      if (Vector3.Distance(transform.position, startPos) < 0.1f)
+      transform.localPosition += new Vector3(-Offset.x / slowness, -Offset.y / slowness, 0);
+      if (Vector3.Distance(transform.localPosition, startPos) < 0.1f)
       {
         towardStartPos = false;
       }

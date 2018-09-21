@@ -12,7 +12,7 @@ public class getListeners : MonoBehaviour {
     GameObject go = GameObject.Find("LightableObject");
     foreach (SightListener item in go.GetComponentsInChildren<SightListener>())
     {
-      light2d_instance.DDLEvent_InsideFOV.AddListener(item.myListener_onInside);
+      light2d_instance.DDLEvent_InsideFOV.AddListener(item.myListener_onEnter);
     }
   }
 }

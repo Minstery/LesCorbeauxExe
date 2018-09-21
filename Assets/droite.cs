@@ -11,6 +11,6 @@ public class droite : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position += Vector3.right * 0.03f;
+		transform.position += Vector3.right * 0.05f;
 	}
 }

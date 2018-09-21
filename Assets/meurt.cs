@@ -12,6 +12,6 @@ public class meurt : MonoBehaviour {
   // Update is called once per frame
   void OnCollisionEnter2D(Collision2D coll)
   {
-    Destroy(gameObject);
+    GetComponent<Player>().dead = true;
   }
 }
