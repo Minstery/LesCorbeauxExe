@@ -138,8 +138,8 @@
     <Compile Include="Assets\Illumine.cs" />
     <Compile Include="Assets\Menu\HelpScreen.cs" />
     <Compile Include="Assets\Menu\MainMenu.cs" />
+    <Compile Include="Assets\Menu\MusiqueMenu.cs" />
     <Compile Include="Assets\Menu\PauseMenu.cs" />
-    <Compile Include="Assets\Menu\Simple UI\Samples\IconPreview.cs" />
     <Compile Include="Assets\meurt.cs" />
     <Compile Include="Assets\onde.cs" />
     <Compile Include="Assets\ondeList.cs" />
@@ -155,36 +155,18 @@
     <None Include="Assets\2DDL\Examples\16 - Soft and Smooth shadows edges\_BloomAndFlares\MobileBlur.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\StencilObject.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturized.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\2DDL\Bugs\READ FIRST.txt" />
     <None Include="Assets\2DDL\2DLight\Shaders\occluded.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\RadialGradientAlphaBlend.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\DepthMask.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\2DDL\2DLight\Shaders\CGTexturizing.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\Menu\Simple UI\Fonts\OFL.txt" />
     <None Include="Assets\2DDL\2DLight\Shaders\OffsetShader.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturizedAdditive.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Menu\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturizedWithAlpha.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\StencilMask.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\VertexColor.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\Gradient-ZFighting.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\2DDL\2DLight\Shaders\occluder.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\Menu\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Acartes/Documents/UnityProjects/LesCorbeauxExe/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

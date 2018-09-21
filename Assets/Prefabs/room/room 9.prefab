@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 114871970155741582}
   - component: {fileID: 61695124288443402}
   - component: {fileID: 114466190910557676}
+  - component: {fileID: 95603614898353322}
   m_Layer: 0
   m_Name: DroiteGauche (6)
   m_TagString: Untagged
@@ -118,6 +119,7 @@ GameObject:
   - component: {fileID: 61830493541598076}
   - component: {fileID: 114663786328347076}
   - component: {fileID: 61182488954650632}
+  - component: {fileID: 95897690074646650}
   m_Layer: 0
   m_Name: DroiteGauche (3)
   m_TagString: Untagged
@@ -140,6 +142,7 @@ GameObject:
   - component: {fileID: 61594910299263556}
   - component: {fileID: 114533078707360680}
   - component: {fileID: 61051275993194814}
+  - component: {fileID: 95786610145371754}
   m_Layer: 0
   m_Name: DroiteGauche (5)
   m_TagString: Untagged
@@ -162,6 +165,7 @@ GameObject:
   - component: {fileID: 61289486876830340}
   - component: {fileID: 114913392230214730}
   - component: {fileID: 61799998624390368}
+  - component: {fileID: 95173994718998432}
   m_Layer: 0
   m_Name: DroiteGauche (4)
   m_TagString: Untagged
@@ -189,7 +193,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1331083778093802}
   m_LocalRotation: {x: -0, y: -0, z: 0.0000008726646, w: 1}
-  m_LocalPosition: {x: 0.35, y: -1.76, z: 2}
+  m_LocalPosition: {x: 0.54, y: -1.57, z: 2}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_Children: []
   m_Father: {fileID: 4609345290070510}
@@ -843,6 +847,78 @@ EdgeCollider2D:
   - {x: 0.22, y: -1.62}
   - {x: 0.04, y: -0.55}
   - {x: -0.24, y: -1.33}
+--- !u!95 &95173994718998432
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1823884366512094}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cdfbcde56649c34986ec8bf12cc1f55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &95603614898353322
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1331083778093802}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cdfbcde56649c34986ec8bf12cc1f55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &95786610145371754
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730553092297444}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cdfbcde56649c34986ec8bf12cc1f55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &95897690074646650
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715589896349464}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cdfbcde56649c34986ec8bf12cc1f55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114466190910557676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -856,7 +932,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Offset: {x: 2, y: 0}
   towardStartPos: 0
-  slowness: 100
+  slowness: 50
+  SpriteRenderer: {fileID: 0}
 --- !u!114 &114515987953822788
 MonoBehaviour:
   m_ObjectHideFlags: 1

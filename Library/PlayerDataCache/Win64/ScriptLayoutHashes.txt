@@ -3,7 +3,8 @@ PlayerPath?
 C:/Users/Acartes/Desktop/Build chov souris/LesCorbeauxExe.exe
 SceneListBegin?
 Assets/Menu/Scenes/MainMenu.unity
-Assets/Menu/Scenes/HelpScreen.unity
+Assets/Menu/Scenes/HelpScreen1.unity
+Assets/Menu/Scenes/HelpScreen2.unity
 Assets/Scenes/Game.unity
 SceneListEnd?
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:DynamicLight2D.InstanceEvents
@@ -24,7 +25,6 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 64f3a13c1277a7f1324321d93d0ec13b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 b14b4630cc47b6e9ea8a644551a6a8cc Unity.TextMeshPro.dll:TMPro.TMP_Text
-f2d769ff66d559636c21dcba3ff16453 Assembly-CSharp.dll:.IconPreview
 77202671f71cf791249865bfbec13797 Assembly-CSharp.dll:Prime31.CharacterController2D
 65e098bf63acd9016957cbe6eeb64c5a Assembly-CSharp.dll:.evil
 2a977fd3baf416cf11dbff6e70932584 Assembly-CSharp.dll:DynamicLight2D.DynamicLight
@@ -103,7 +103,7 @@ e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 997480cca3ef7dbfb25b12251be16298 Assembly-CSharp.dll:.CatchTheBlueTorch
-9314c97447cd02ca1124f0f53ff1ea6f Assembly-CSharp.dll:.changeSprite
+6278bba52de855cffd61c3d5ca6747fe Assembly-CSharp.dll:.changeSprite
 21552d74285a121c6cefafb284f4192b Assembly-CSharp.dll:.DeleteCasters
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.followBody
 43b38d57e45db1e4fcfcf97124b55a86 Assembly-CSharp.dll:.bullet
@@ -148,7 +148,7 @@ d3baf945a28bf6b4a4706c8193e7459e Assembly-CSharp.dll:.rotationUsingSync
 382b8ef512fa8d6108723a01b57af65b UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 d22c788799ee45d8676254eccf20e8b8 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.onTriggerLightenUp
-ea2bc59b23b854264f62d4ba0411a59d Assembly-CSharp.dll:.AversB
+7951456058eaf3911edd86cb68d2301d Assembly-CSharp.dll:.AversB
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -161,9 +161,10 @@ dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 6ede5af0c5c8b0cdb6a73a500b4eee05 Assembly-CSharp.dll:DynamicLight2D.Illumination
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.MainMenu
+f8d3f70fd3383397aaece012d23778c7 Assembly-CSharp.dll:.proceduralDisplay
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.scriptIn
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.exitDeath
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.meurt
+8b9035f5efa8d6ef706a06a941e169b1 Assembly-CSharp.dll:.meurt
 486cd95c82d8305219c352c06b776e1f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:DynamicLight2D.CoreUtils
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.PostEffectsBase
@@ -173,7 +174,7 @@ f10a6494ca24d41264e285e373e4561a Assembly-CSharp.dll:.followPlayer
 530e37032e461d2146544e97585ce54f Assembly-CSharp.dll:.TimerClass
 da3ed57fd515fc853499a16f32792367 Assembly-CSharp.dll:.Illumine
 eaf0bcdb10d442a4029d615f41d09957 Unity.TextMeshPro.dll:TMPro.TextContainer
-b1aae84468c1235949bd6d1293bba50a Assembly-CSharp.dll:.checkPoint
+50bc842c9c3dd84c7d9e6e8d06c73204 Assembly-CSharp.dll:.checkPoint
 49a6fe8a1419681902d50c64deca05a1 Assembly-CSharp.dll:.SetProximityFactor
 201273fb4f889724fb090164b7d6c657 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 486cd95c82d8305219c352c06b776e1f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -241,4 +242,4 @@ d3baf945a28bf6b4a4706c8193e7459e Assembly-CSharp.dll:.rotate_2
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:DynamicLight2D.AddOnBase
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.gauche
 39293762490b9fb3ad7c719c2e51d234 Assembly-CSharp.dll:DynamicLight2D.Rotation
-f8d3f70fd3383397aaece012d23778c7 Assembly-CSharp.dll:.proceduralDisplay
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.MusiqueMenu

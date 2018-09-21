@@ -11,7 +11,7 @@ public class PauseMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.P))
+		if (Input.GetButton("Fire3") && !GameIsPaused)
         {
             if (GameIsPaused)
             {
@@ -27,8 +27,8 @@ public class PauseMenu : MonoBehaviour {
     public void ReturnToMenu()
     {
         Debug.Log("Returning to menu...");
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        Resume();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
     }
 
     public void QuitGame()

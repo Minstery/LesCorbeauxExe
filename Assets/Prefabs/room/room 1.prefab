@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 61378158911741102}
   - component: {fileID: 114944021691519980}
   - component: {fileID: 61855185385515086}
+  - component: {fileID: 95588879317728716}
   m_Layer: 0
   m_Name: DroiteGauche (1)
   m_TagString: Untagged
@@ -525,6 +526,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
+--- !u!95 &95588879317728716
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1839281717404560}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cdfbcde56649c34986ec8bf12cc1f55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114143778202096040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -539,6 +558,7 @@ MonoBehaviour:
   Offset: {x: 4, y: 0}
   towardStartPos: 0
   slowness: 100
+  SpriteRenderer: {fileID: 0}
 --- !u!114 &114364171969747164
 MonoBehaviour:
   m_ObjectHideFlags: 1

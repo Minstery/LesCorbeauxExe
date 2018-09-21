@@ -8,7 +8,7 @@ public class winOrLose : MonoBehaviour {
 
   void Update()
   {
-    if (transform.position.x > 195)
+    if (transform.position.x > 210)
     {
       win.SetActive(true);
       Destroy(this);

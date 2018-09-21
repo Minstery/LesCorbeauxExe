@@ -27,6 +27,7 @@ GameObject:
   - component: {fileID: 114190183544955024}
   - component: {fileID: 61494485315582470}
   - component: {fileID: 114457387793816434}
+  - component: {fileID: 95289847521197744}
   m_Layer: 0
   m_Name: DroiteGauche (6)
   m_TagString: Untagged
@@ -105,6 +106,7 @@ GameObject:
   - component: {fileID: 114142958614976018}
   - component: {fileID: 61328428887395460}
   - component: {fileID: 114275699564524862}
+  - component: {fileID: 95980742522963682}
   m_Layer: 0
   m_Name: DroiteGauche (8)
   m_TagString: Untagged
@@ -128,6 +130,7 @@ GameObject:
   - component: {fileID: 114141188502870200}
   - component: {fileID: 61798439879660662}
   - component: {fileID: 114134372508227208}
+  - component: {fileID: 95831916392394512}
   m_Layer: 0
   m_Name: DroiteGauche (7)
   m_TagString: Untagged
@@ -183,7 +186,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1555952637969368}
   m_LocalRotation: {x: -0, y: -0, z: 0.0000008726646, w: 1}
-  m_LocalPosition: {x: 0.053997036, y: 0.96, z: 2}
+  m_LocalPosition: {x: 1.3099988, y: 0.51, z: 2}
   m_LocalScale: {x: 0.39999995, y: 0.39999995, z: 1}
   m_Children: []
   m_Father: {fileID: 4939883698853340}
@@ -209,7 +212,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1415775553076534}
   m_LocalRotation: {x: -0, y: -0, z: 0.0000008726646, w: 1}
-  m_LocalPosition: {x: 0.053997036, y: 2.188, z: 2}
+  m_LocalPosition: {x: 1.3099988, y: 2.37, z: 2}
   m_LocalScale: {x: 0.39999995, y: 0.39999995, z: 1}
   m_Children: []
   m_Father: {fileID: 4939883698853340}
@@ -241,7 +244,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1035819403297520}
   m_LocalRotation: {x: -0, y: -0, z: 0.0000008726646, w: 1}
-  m_LocalPosition: {x: 0.054, y: -0.206, z: 2}
+  m_LocalPosition: {x: 1.31, y: -0.45, z: 2}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 4939883698853340}
@@ -729,6 +732,60 @@ EdgeCollider2D:
   - {x: 0.22, y: -1.62}
   - {x: 0.04, y: -0.55}
   - {x: -0.24, y: -1.33}
+--- !u!95 &95289847521197744
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035819403297520}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cdfbcde56649c34986ec8bf12cc1f55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &95831916392394512
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1555952637969368}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cdfbcde56649c34986ec8bf12cc1f55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &95980742522963682
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415775553076534}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cdfbcde56649c34986ec8bf12cc1f55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114134372508227208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -743,6 +800,7 @@ MonoBehaviour:
   Offset: {x: 2, y: 0}
   towardStartPos: 0
   slowness: 100
+  SpriteRenderer: {fileID: 0}
 --- !u!114 &114141188502870200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -805,6 +863,7 @@ MonoBehaviour:
   Offset: {x: 2, y: 0}
   towardStartPos: 0
   slowness: 100
+  SpriteRenderer: {fileID: 0}
 --- !u!114 &114373682794953370
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -831,6 +890,7 @@ MonoBehaviour:
   Offset: {x: 2, y: 0}
   towardStartPos: 0
   slowness: 100
+  SpriteRenderer: {fileID: 0}
 --- !u!114 &114534389539585510
 MonoBehaviour:
   m_ObjectHideFlags: 1
