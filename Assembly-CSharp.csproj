@@ -133,6 +133,7 @@
     <Compile Include="Assets\evil.cs" />
     <Compile Include="Assets\exitDeath.cs" />
     <Compile Include="Assets\gauche.cs" />
+    <Compile Include="Assets\getDistance.cs" />
     <Compile Include="Assets\getListeners.cs" />
     <Compile Include="Assets\goUp.cs" />
     <Compile Include="Assets\Illumine.cs" />
